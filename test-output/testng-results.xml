@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-11T16:03:43 IST" name="Default suite" finished-at="2024-06-11T16:03:46 IST" duration-ms="3373">
+    <groups>
+    </groups>
+    <test started-at="2024-06-11T16:03:43 IST" name="Default test" finished-at="2024-06-11T16:03:46 IST" duration-ms="3373">
+      <class name="myproj.FirstProjFramework.StandAloneTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:myproj.FirstProjFramework.StandAloneTest@4d0d9fe7]" started-at="2024-06-11T16:03:43 IST" name="setUp" finished-at="2024-06-11T16:03:45 IST" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:myproj.FirstProjFramework.StandAloneTest@4d0d9fe7]" started-at="2024-06-11T16:03:45 IST" name="loginTest" data-provider="Authentication" finished-at="2024-06-11T16:03:46 IST" duration-ms="949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jack123@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gayatri@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:myproj.FirstProjFramework.StandAloneTest@4d0d9fe7]" started-at="2024-06-11T16:03:46 IST" name="tearDown" finished-at="2024-06-11T16:03:46 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- myproj.FirstProjFramework.StandAloneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
